@@ -88,6 +88,9 @@ body{
     margin-top:20px;
     margin-bottom:30px;
 }
+.content{
+    margin-bottom: 80px;;
+}
 .content h1{
     color:#fff;
     margin-bottom:20px;
@@ -99,8 +102,27 @@ body{
     margin-bottom:10px;
     margin-top: 50px;
 }
-.content span{
-    color:#F5564E;
-    padding-bottom: 50px;
-    font-family: 
+
+/* footer */
+.footer{
+    width:100%;
+    padding:50px;
+    background-color:#FAB95B ;
+    text-align: center;
+    color: #000;
+}
+.footer h3{
+   padding-bottom:20px;
+}
+.footer a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.7);
+    margin:10px;
+}
+.footer a:hover{
+    color:#fff;
+}
+.footer i{
+    font-size: 30px;
+    margin-bottom:20px;
 }
