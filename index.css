@@ -2,12 +2,12 @@
 body{
     background-color: #000000;
     color: rgba(255, 255, 255, 0.7);
+    font-size:1.1em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .header img{
-    width: 120px;
-    height: 120px;
-    position: fixed;
+    width: 150px;
+    height: 150px;
     left:5px;
     top:5px;
 }
@@ -80,9 +80,10 @@ body{
     top:50px;
     right:30px;
     font-size:30px;
+    cursor: pointer;
 }
 .main{
-    margin-top:120px;
+    margin-top:0px;
 }
 .main h1{
     font-size:40px;
