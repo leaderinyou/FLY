@@ -135,3 +135,27 @@ body{
 #button_4{
     background-color:#FAB95B;
 }
+
+/* footer */
+.footer{
+    width:100%;
+    padding:50px;
+    background-color:#FAB95B ;
+    text-align: center;
+    color: #000;
+}
+.footer h3{
+   padding-bottom:20px;
+}
+.footer a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.7);
+    margin:10px;
+}
+.footer a:hover{
+    color:#fff;
+}
+.footer i{
+    font-size: 30px;
+    margin-bottom:20px;
+}
