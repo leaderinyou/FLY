@@ -80,9 +80,9 @@ body{
 
 #close{
     position: fixed;
-    top:50px;
+    top:35px;
     right:30px;
-    font-size:30px;
+    font-size:40px;
     cursor: pointer;
 }
 /* header end  */
