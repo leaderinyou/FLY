@@ -47,7 +47,7 @@ body{
     padding:20px;
     font-weight: bolder;
     color:#c2c2c2;
-    transition: 2ms ease-in-out
+    transition: 2ms ease-in-out;
 }
 .menu li:hover{
     color: #fff;
@@ -61,13 +61,13 @@ body{
     content:'';
     position:absolute;
     background-image:-webkit-linear-gradient(45deg,#e96443,#904e95);
-    height:15px;
+    height:20px;
     width:5px;
     margin-top:-5px;
     transition:0.25s cubic-bezier(0.55, 0.085, 0.68, 0.53);
     z-index:-100;
     left:-15px;
-    top:7px;
+    top:8px;
     border-radius:5px;
 }
 .menu a:hover::before{
@@ -81,7 +81,7 @@ body{
 #close{
     position: fixed;
     top:35px;
-    right:30px;
+    left:30px;
     font-size:40px;
     cursor: pointer;
 }
